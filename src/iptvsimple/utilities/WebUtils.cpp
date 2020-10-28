@@ -8,13 +8,15 @@
 
 #include "WebUtils.h"
 
+
 #include <cctype>
 #include <iomanip>
 #include <sstream>
 
 #include <kodi/Filesystem.h>
-#include <p8-platform/util/StringUtils.h>
+#include <kodi/tools/StringUtils.h>
 
+using namespace kodi::tools;
 using namespace iptvsimple;
 using namespace iptvsimple::utilities;
 

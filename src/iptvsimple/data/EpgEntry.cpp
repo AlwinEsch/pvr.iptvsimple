@@ -15,9 +15,10 @@
 #include <cstdlib>
 #include <regex>
 
-#include <p8-platform/util/StringUtils.h>
+#include <kodi/tools/StringUtils.h>
 #include <pugixml.hpp>
 
+using namespace kodi::tools;
 using namespace iptvsimple;
 using namespace iptvsimple::data;
 using namespace pugi;
